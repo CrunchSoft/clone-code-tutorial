@@ -1,3 +1,3 @@
 # clone code tutorials
 
-CSS got so much beter!
+Html and CSS are so much fun!
