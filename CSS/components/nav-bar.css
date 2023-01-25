@@ -1,0 +1,20 @@
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f9f9fa;
+  padding: 20px 50px;
+  /*CSS는 padding계산하기위해서 박스를 먼저 넓히고나서 패딩을 적용 padding만큼 컨텐츠박스가 늘어남*/
+  box-sizing: border-box;
+  /*박스사이징 적용하면 box사이즈가 유지된채로 패딩적용*/
+  border-top: 1px solid rgba(182, 182, 182, 0.5);
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__link {
+  color: #2e363e;
+}
